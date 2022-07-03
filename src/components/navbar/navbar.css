@@ -1,0 +1,27 @@
+.navbar-container{
+    position: absolute;
+    padding: 30px 40px 0px 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar-info {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-switch {
+    display: flex;
+    gap: 20px;
+}
+
+
+    

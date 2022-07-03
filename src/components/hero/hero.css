@@ -1,0 +1,66 @@
+.hero-container{
+    margin-top: 50px;
+    padding: 80px 50px 0px 50px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-info {
+    padding-top: 50px;
+}
+.hero-info h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 20px;
+    color: #0b0b13;
+    text-transform: uppercase;
+}
+
+.hero-info h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #0b0b13;
+}
+
+.lead {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #0b0b13;
+}
+
+.hero-img {
+    clip-path: circle();
+    width: 600px;
+    height: 520px;
+}
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.btn-bar {
+    margin-top: 40px;
+}
+
+.hero-downloadBtn {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    padding-left: 0;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    color: #FF9301;
+}
