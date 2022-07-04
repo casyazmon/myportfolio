@@ -8,11 +8,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 .about-img{
-  clip-path: circle();
+    background-color: #F7F7FF;
 }
+
 .about-img img {
+    width: 600px;
+    opacity: .6;
+    border-radius: 10px;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.about-img img:hover {
+    opacity: 1;
 }
 
 .about-icons {

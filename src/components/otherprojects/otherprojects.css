@@ -1,0 +1,64 @@
+.others-container {
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+.others-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+.others-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap: 20px;
+}
+.other-project {
+    cursor: pointer;
+    box-shadow: 0 10px 30px -15px #F7F7FF;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    border-radius: 5px;
+    background-color: #F7F7FF;
+    transition: transform 250ms;
+}
+
+.other-project:hover {
+    transform: translateY(-10px);
+}
+
+.other-folders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.other-project-icon {
+    font-size: 20px;
+}
+
+.tect-stack-used {
+    display: flex;
+    font-size: 12px;
+    gap: 20px;
+}

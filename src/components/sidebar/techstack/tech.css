@@ -1,0 +1,49 @@
+.stack-container {
+    padding: 20px 50px 50px 50px;
+    background-color: #f7f7ff;
+}
+
+.stack-content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-right: 10px;
+    
+}
+.stack-card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.stack-card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.stack-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stack-card-title {
+    font-size: 18px;
+    color: #0b0b13;
+}
+
+
+.stack-card-desc {
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+
+.stack-card-icon {
+    font-size: 40px;
+    color: #0b0b13;
+}

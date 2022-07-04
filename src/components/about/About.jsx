@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/img/woman.jpg'
+
+import MeImg from '../../assets/img/azmon.jpg'
 import {FaGithub,FaInstagram,FaTwitterSquare,FaLinkedin} from 'react-icons/fa'
 
 const About = () => {
@@ -17,7 +19,7 @@ const About = () => {
                 </ul>
             </div>
             <div className="about-img">
-                <img src={AboutImg} alt="" />
+                <img src={MeImg} alt="" />
             </div>
             <div className="about-desc">
                 <h3 className="title-header">About Me</h3>
