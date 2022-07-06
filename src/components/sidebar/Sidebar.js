@@ -2,7 +2,7 @@
 import {FaHouseDamage,FaAddressCard,FaRegFile,FaBriefcase,FaBlog,FaIdCardAlt} from 'react-icons/fa'
 import React from 'react'
 import './sidebar.css'
-import LogoImg from '../../assets/img/logo.png'
+import LogoImg from '../../assets/img/mylogo.png'
 
 const Sidebar = () => {
   return (

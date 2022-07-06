@@ -13,6 +13,10 @@
     
 }
 
+.nav-toggle-icon {
+    fill: red;
+}
+
 .navbar-info {
     display: flex;
     gap: 20px;
@@ -21,6 +25,30 @@
 .navbar-switch {
     display: flex;
     gap: 20px;
+}
+
+/* media query breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-info {
+        display: none;
+    }
+    
+    .navbar-switch {
+        visibility: hidden;
+    }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
 
 
