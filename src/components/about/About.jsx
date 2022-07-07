@@ -3,6 +3,7 @@ import './about.css'
 
 import MeImg from '../../assets/img/azmon.jpg'
 import {FaGithub,FaInstagram,FaTwitterSquare,FaLinkedin} from 'react-icons/fa'
+import AboutMobile from './AboutMobile'
 
 const About = () => {
   return (
@@ -37,6 +38,9 @@ const About = () => {
             </div>
             
         </div>
+
+
+        
         
     </div>
   )

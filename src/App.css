@@ -57,6 +57,7 @@ ul, li {
 
 section{
     padding: 100px 0;
+    
 }
 
 .title-header {
@@ -74,8 +75,12 @@ section{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    section{
+        padding: 80px 0;
+        
+    }
     .main-content{
-        padding: 0 20px;
+        padding: 0;
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */

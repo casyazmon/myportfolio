@@ -1,6 +1,5 @@
 .navbar-container{
-    position: absolute;
-    padding: 30px 40px 0px 120px;
+    padding: 30px 40px 0px 40px;
     top: 0;
     left: 0;
     right: 0;
@@ -13,8 +12,23 @@
     
 }
 
+
+.nav-logo {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+
 .nav-toggle-icon {
-    fill: red;
+    background-color: #FF9301;
+    border-radius: 5px;
+    padding: 10px;
+    fill: white;
+    font-size: 20px;
 }
 
 .navbar-info {
@@ -31,23 +45,55 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .navbar-info {
+    .navbar-container{
+        padding: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        
+    }
+
+   
+
+    .navbar-info, .navbar-switch {
         display: none;
     }
     
-    .navbar-switch {
-        visibility: hidden;
-    }
+     
     
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .nav-logo, .nav-toggle {
+        display: none;
+    }
+}
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .nav-logo, .nav-toggle {
+        display: none;
+    }
+}
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .nav-logo, .nav-toggle {
+        display: none;
+    }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .nav-logo, .nav-toggle {
+        display: none;
+    }
+
 
 }
 

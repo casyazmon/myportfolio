@@ -83,7 +83,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .projects-container {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 20px;
     }
     .projects-content {
         display: flex;
@@ -99,11 +99,19 @@
         gap: 20px;
     }
 
+    .project-info{
+        margin: 20px;
+    }
+
     .project-img {
-        visibility: collapse;
+        display: none;
         
     }
     
+    .project-tech-stack ul {
+        flex-wrap: wrap;
+       
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}

@@ -10,7 +10,7 @@ const Navbar = () => {
           <p className="phone-number">+237 676-096-187</p>
           <p className="navbar-email">info@akapazmon.com</p>
         </div>
-        <div className="nav-logo">AKAP</div>
+        <div className="nav-logo">Azmon</div>
         <div className="nav-toggle"><GiHamburgerMenu className='nav-toggle-icon'/></div>
         <div className="navbar-switch">
           <span className="navbar-fr">FR</span>
